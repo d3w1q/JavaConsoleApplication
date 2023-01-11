@@ -1,4 +1,5 @@
 import devices.Car;
+import devices.Device;
 
 import java.time.LocalDateTime;
 
@@ -50,5 +51,8 @@ public class Human {
         System.out.println("Proszę pilnie odebrać aneks do umowy od pani Hanny z kadr.");
         System.out.println("ZUS jak i US już wiedzą o zmianie wypłaty. Nie ma sensu ukrywać swojego dochodu.");
         this.salary = salary;
-    }
+
+        }
+
 }
+
